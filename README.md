@@ -1,167 +1,250 @@
+# 💼 Portfolio Álvaro Antunes
+
 <div align="center">
-  
-# 👨‍💻 Álvaro Antunes | Desenvolvedor Full Stack
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=Bem-vindo+ao+meu+perfil!;Desenvolvedor+Full+Stack;Estudante+de+Engenharia;Entusiasta+da+Tecnologia)](https://git.io/typing-svg)
+![Portfolio Banner](https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=1200&h=300&fit=crop&crop=center)
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=%C3%81lvaro%20Antunes&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.19-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+[🌐 **Ver Site**](#) | [📧 **Contato**](mailto:alvaroantunes012@gmail.com) | [💼 **LinkedIn**](https://www.linkedin.com/in/alvaro-antunes-de-oliveira/)
 
 </div>
 
-## 🚀 Sobre Mim
+---
 
-<img align="right" alt="Developer working" height="200px" style="border-radius: 10px;" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+## 📋 Sobre o Projeto
 
-```typescript
-const alvaroAntunes = {
-    currentFocus: "Engenharia de Computação",
-    university: "UFES",
-    code: ["C", "C++", "Java", "Python", "TypeScript"],
-    technologies: {
-        backEnd: ["Node.js", "Express", "MySQL"],
-        frontEnd: ["React", "Next.js", "HTML", "CSS", "TypeScript"],
-        databases: ["MySQL", "PostgreSQL"],
-        tools: ["Git", "Docker", "VS Code"]
-    },
-    currentlyLearning: "Desenvolvimento Web Full Stack",
-    funFact: "Transformo café em código! ☕→💻"
-};
+Este é o meu portfólio pessoal desenvolvido com as mais modernas tecnologias web. O site apresenta meus projetos, habilidades e experiências como desenvolvedor, com foco em **desenvolvimento web** e **inteligência artificial**.
+
+### ✨ Características Principais
+
+- 🎨 **Design Moderno**: Interface limpa e profissional com animações suaves
+- 📱 **Totalmente Responsivo**: Otimizado para dispositivos móveis, tablets e desktop
+- 🌙 **Tema Escuro/Claro**: Suporte completo a temas com transições suaves
+- ⚡ **Performance Otimizada**: Carregamento rápido com lazy loading e otimizações
+- 🎭 **Animações Interativas**: Efeitos visuais envolventes e micro-interações
+- 📧 **Formulário de Contato**: Sistema integrado para comunicação direta
+- 🔍 **SEO Otimizado**: Meta tags e estrutura otimizada para motores de busca
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend Core
+- **[React 18.3.1](https://reactjs.org/)** - Biblioteca para interfaces de usuário
+- **[TypeScript 5.8.3](https://www.typescriptlang.org/)** - Superset tipado do JavaScript
+- **[Vite 5.4.19](https://vitejs.dev/)** - Build tool e dev server ultrarrápido
+
+### Estilização & UI
+- **[Tailwind CSS 3.4.17](https://tailwindcss.com/)** - Framework de CSS utilitário
+- **[Radix UI](https://www.radix-ui.com/)** - Componentes acessíveis e personalizáveis
+- **[Lucide React](https://lucide.dev/)** - Ícones modernos e consistentes
+- **[Class Variance Authority](https://cva.style/)** - Gerenciamento de variantes de componentes
+
+### Funcionalidades
+- **[React Router DOM](https://reactrouter.com/)** - Roteamento do lado do cliente
+- **[React Hook Form](https://react-hook-form.com/)** - Gerenciamento de formulários
+- **[TanStack Query](https://tanstack.com/query/)** - Estado de servidor e cache
+- **[Zod](https://zod.dev/)** - Validação de schema TypeScript-first
+
+### Animações & Interações
+- **[Embla Carousel](https://www.embla-carousel.com/)** - Carrossel de alta performance
+- **[Sonner](https://sonner.emilkowal.ski/)** - Notificações toast elegantes
+- **[Next Themes](https://github.com/pacocoursey/next-themes)** - Gerenciamento de temas
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+- **Node.js** (versão 18 ou superior)
+- **npm**, **yarn** ou **bun** (gerenciador de pacotes)
+
+### Instalação
+
+1. **Clone o repositório**
+```bash
+git clone https://github.com/AlvaroAntunes/portfolio.git
+cd portfolio
 ```
 
-Olá! 👋 Sou **Álvaro Antunes**, um entusiasta da tecnologia atualmente cursando **Engenharia de Computação na UFES**. Apaixonado por resolver problemas complexos através da programação e sempre em busca de novos desafios para expandir meus conhecimentos.
+2. **Instale as dependências**
+```bash
+# Com npm
+npm install
+
+# Com yarn
+yarn install
+
+# Com bun
+bun install
+```
+
+3. **Execute o servidor de desenvolvimento**
+```bash
+# Com npm
+npm run dev
+
+# Com yarn
+yarn dev
+
+# Com bun
+bun dev
+```
+
+4. **Acesse o projeto**
+```
+http://localhost:8080
+```
+
+### Scripts Disponíveis
+
+| Comando | Descrição |
+|---------|-----------|
+| `dev` | Inicia o servidor de desenvolvimento |
+| `build` | Gera build de produção |
+| `build:dev` | Gera build de desenvolvimento |
+| `preview` | Visualiza build de produção localmente |
+| `lint` | Executa linting do código |
 
 ---
 
-## 🎯 Projetos em Destaque
+## 📁 Estrutura do Projeto
 
-### 🎮 **Games & Entretenimento**
-<div align="center">
-
-[![Pacman](https://img.shields.io/badge/🎮_Pacman-FF6B6B?style=for-the-badge&logo=ghost&logoColor=white)](https://github.com/AlvaroAntunes/pacman-c)
-
-*Implementação completa do clássico jogo Pacman em linguagem C com mecânicas avançadas e interface gráfica*
-
-</div>
-
-### 🔍 **Algoritmos & Estruturas de Dados**
-<div align="center">
-
-[![Busca em Grafos](https://img.shields.io/badge/🔍_Busca_em_Grafos-4ECDC4?style=for-the-badge&logo=search&logoColor=white)](https://github.com/AlvaroAntunes/graph-search-c)
-
-*Sistema avançado de busca em grafos implementado em C, utilizando algoritmos de busca em largura e profundidade*
-
-</div>
-
-### 🎬 **Aplicações Web**
-<div align="center">
-
-[![Plataforma de Filmes](https://img.shields.io/badge/🎬_Plataforma_de_Filmes-96CEB4?style=for-the-badge&logo=film&logoColor=white)](https://github.com/AlvaroAntunes/plataforma-filmes)
-
-*Plataforma completa para catalogação e avaliação de filmes com interface moderna e responsiva*
-
-</div>
-
-### 🚀 **Mais Projetos**
-<div align="center">
-
-🎯 **Em desenvolvimento**: Mais projetos incríveis estão por vir! Acompanhe meu perfil para as próximas novidades.
-
-[![Explorar Repositórios](https://img.shields.io/badge/📚_Ver_Todos_os_Projetos-6366F1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlvaroAntunes?tab=repositories)
-
-</div>
+```
+portfolio/
+├── public/
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── ui/              # Componentes base do shadcn/ui
+│   │   ├── About.tsx        # Seção sobre mim
+│   │   ├── Contact.tsx      # Formulário de contato
+│   │   ├── Footer.tsx       # Rodapé do site
+│   │   ├── Hero.tsx         # Seção principal/banner
+│   │   ├── Navigation.tsx   # Menu de navegação
+│   │   ├── Projects.tsx     # Portfólio de projetos
+│   │   └── Skills.tsx       # Habilidades técnicas
+│   ├── hooks/
+│   │   ├── use-mobile.tsx   # Hook para detecção mobile
+│   │   └── use-toast.ts     # Hook para notificações
+│   ├── lib/
+│   │   └── utils.ts         # Utilitários e helpers
+│   ├── pages/
+│   │   ├── Index.tsx        # Página principal
+│   │   └── NotFound.tsx     # Página 404
+│   ├── App.tsx              # Componente raiz
+│   ├── main.tsx             # Ponto de entrada
+│   └── index.css            # Estilos globais
+├── components.json          # Configuração shadcn/ui
+├── tailwind.config.ts       # Configuração Tailwind
+├── tsconfig.json            # Configuração TypeScript
+└── vite.config.ts           # Configuração Vite
+```
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 🎨 Seções do Portfolio
 
-<div align="center">
+### 🏠 **Hero Section**
+- Apresentação pessoal com animações
+- Call-to-actions para projetos e contato
+- Links para redes sociais
 
-### 💻 Linguagens de Programação
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+### 👨‍💻 **Sobre Mim**
+- Biografia profissional
+- Objetivos e motivações
+- Formação acadêmica
 
-### 🌐 Web Development
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+### 🛠️ **Habilidades**
+- Tecnologias dominadas
+- Ferramentas de desenvolvimento
+- Níveis de proficiência
 
-### 🗄️ Banco de Dados & Ferramentas
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+### 💼 **Projetos**
+- Portfólio de trabalhos realizados
+- Descrições detalhadas
+- Links para código e demo
 
-</div>
-
----
-
-## 📊 Estatísticas GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AlvaroAntunes&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlvaroAntunes&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AlvaroAntunes&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlvaroAntunes&theme=tokyo-night&hide_border=true&bg_color=0d1117" alt="GitHub Activity Graph"/>
-</div>
+### 📧 **Contato**
+- Formulário de contato funcional
+- Informações de contato direto
+- Redes sociais
 
 ---
 
-## 🏆 Conquistas & Troféus
+## 🌟 Funcionalidades Destacadas
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AlvaroAntunes&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1"/>
-</div>
+### 🎭 **Animações e Transições**
+- Animações de entrada suaves
+- Efeitos de hover interativos
+- Transições de página fluidas
+- Loading states elegantes
+
+### 📱 **Design Responsivo**
+- Mobile-first approach
+- Breakpoints otimizados
+- Touch-friendly interfaces
+- Imagens responsivas
+
+### 🌙 **Sistema de Temas**
+- Modo escuro e claro
+- Persistência de preferência
+- Transições suaves entre temas
+- Cores consistentes
+
+### ⚡ **Performance**
+- Code splitting automático
+- Lazy loading de componentes
+- Otimização de imagens
+- Bundle size otimizado
 
 ---
 
-## 🌐 Conecte-se Comigo
+## 🤝 Contribuindo
 
-<div align="center">
+Embora este seja um projeto pessoal, sugestões e feedback são sempre bem-vindos!
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+**Álvaro Antunes**
+- 🎓 Estudante de Engenharia de Computação - UFES
+- 💼 Desenvolvedor Full Stack
+- 🌱 Apaixonado por tecnologia e inovação
+
+### 📫 Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alvaro-antunes-de-oliveira/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvaroantunes012@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5527996887194)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=web&logoColor=white)](#)
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlvaroAntunes)
 
 ---
 
 <div align="center">
 
-## 🐍 Contribuição Snake Animation
+### 💫 *"Transformando ideias em código, código em soluções."*
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlvaroAntunes/AlvaroAntunes/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlvaroAntunes/AlvaroAntunes/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AlvaroAntunes/AlvaroAntunes/output/github-contribution-grid-snake.svg">
-</picture>
+![Visitor Count](https://profile-counter.glitch.me/portfolio-alvaro/count.svg)
+
+**Obrigado pela visita! 🚀**
 
 </div>
-
----
-
-<div align="center">
-
-### 💫 *"A tecnologia move o mundo, mas são as pessoas que fazem a diferença!"*
-
-![Visitor Count](https://profile-counter.glitch.me/AlvaroAntunes/count.svg)
-
-**Obrigado pela visita! 🚀 Vamos construir algo incrível juntos!**
-
-</div>
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
