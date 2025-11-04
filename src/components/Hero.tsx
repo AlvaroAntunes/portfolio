@@ -1,0 +1,66 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+
+const Hero = () => {
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  return (
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4">
+      {/* Animated background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-secondary/10 animate-pulse" style={{ animationDuration: "8s" }} />
+      
+      {/* Glow effects */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-float" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
+
+      <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">
+        <div className="space-y-4">
+          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+            Desenvolvedor Web & IA
+          </h1>
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
+            Criando experiências digitais modernas e automações inteligentes para impulsionar seu negócio
+          </p>
+        </div>
+
+        <div className="flex flex-wrap gap-4 justify-center items-center">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow group"
+            onClick={() => scrollToSection("projetos")}
+          >
+            Ver Projetos
+            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline"
+            className="border-primary/30 hover:border-primary hover:bg-primary/10"
+            onClick={() => scrollToSection("contato")}
+          >
+            Entrar em Contato
+          </Button>
+        </div>
+
+        <div className="flex gap-4 justify-center pt-8">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+             className="p-3 rounded-full bg-card hover:bg-primary/20 transition-all hover:scale-110 hover:shadow-glow">
+            <Github className="h-6 w-6" />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+             className="p-3 rounded-full bg-card hover:bg-primary/20 transition-all hover:scale-110 hover:shadow-glow">
+            <Linkedin className="h-6 w-6" />
+          </a>
+          <a href="mailto:contato@exemplo.com"
+             className="p-3 rounded-full bg-card hover:bg-primary/20 transition-all hover:scale-110 hover:shadow-glow">
+            <Mail className="h-6 w-6" />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
