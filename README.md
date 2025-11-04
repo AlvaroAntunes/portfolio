@@ -57,62 +57,6 @@ Este é o meu portfólio pessoal desenvolvido com as mais modernas tecnologias w
 
 ---
 
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-
-- **Node.js** (versão 18 ou superior)
-- **npm**, **yarn** ou **bun** (gerenciador de pacotes)
-
-### Instalação
-
-1. **Clone o repositório**
-```bash
-git clone https://github.com/AlvaroAntunes/portfolio.git
-cd portfolio
-```
-
-2. **Instale as dependências**
-```bash
-# Com npm
-npm install
-
-# Com yarn
-yarn install
-
-# Com bun
-bun install
-```
-
-3. **Execute o servidor de desenvolvimento**
-```bash
-# Com npm
-npm run dev
-
-# Com yarn
-yarn dev
-
-# Com bun
-bun dev
-```
-
-4. **Acesse o projeto**
-```
-http://localhost:8080
-```
-
-### Scripts Disponíveis
-
-| Comando | Descrição |
-|---------|-----------|
-| `dev` | Inicia o servidor de desenvolvimento |
-| `build` | Gera build de produção |
-| `build:dev` | Gera build de desenvolvimento |
-| `preview` | Visualiza build de produção localmente |
-| `lint` | Executa linting do código |
-
----
-
 ## 📁 Estrutura do Projeto
 
 ```
@@ -177,52 +121,6 @@ portfolio/
 
 ---
 
-## 🌟 Funcionalidades Destacadas
-
-### 🎭 **Animações e Transições**
-- Animações de entrada suaves
-- Efeitos de hover interativos
-- Transições de página fluidas
-- Loading states elegantes
-
-### 📱 **Design Responsivo**
-- Mobile-first approach
-- Breakpoints otimizados
-- Touch-friendly interfaces
-- Imagens responsivas
-
-### 🌙 **Sistema de Temas**
-- Modo escuro e claro
-- Persistência de preferência
-- Transições suaves entre temas
-- Cores consistentes
-
-### ⚡ **Performance**
-- Code splitting automático
-- Lazy loading de componentes
-- Otimização de imagens
-- Bundle size otimizado
-
----
-
-## 🤝 Contribuindo
-
-Embora este seja um projeto pessoal, sugestões e feedback são sempre bem-vindos!
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👨‍💻 Autor
 
 **Álvaro Antunes**
@@ -238,13 +136,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlvaroAntunes)
 
 ---
-
-<div align="center">
-
-### 💫 *"Transformando ideias em código, código em soluções."*
-
-![Visitor Count](https://profile-counter.glitch.me/portfolio-alvaro/count.svg)
-
-**Obrigado pela visita! 🚀**
-
-</div>
